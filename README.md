@@ -1,3 +1,13 @@
+
+main.py runs the bare minimum FAST API.
+
+Run the code using uvicorn main:app --reload
+
+Use the inputs from Input.txt
+
+
+titanic_service:
+
 This code will run the docker service, assuming the pkl files are already present.
 
 Run these commands

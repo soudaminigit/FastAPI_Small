@@ -8,6 +8,10 @@ Use the inputs from Input.txt
 
 titanic_service:
 
+We can run the service in isloation using
+
+uvicorn main:app --reload inside the folder.
+
 This code will run the docker service, assuming the pkl files are already present.
 
 Run these commands

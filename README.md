@@ -2,7 +2,7 @@ This code will run the docker service, assuming the pkl files are already presen
 
 Run these commands
 
-docker build -t totanic_serv .
+docker build -t titanic_serv .
 
 docker run -p 8001:8000 titanic_serv
 

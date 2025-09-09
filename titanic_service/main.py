@@ -25,3 +25,4 @@ def predict(p: Passenger):
     X = [[p.Pclass, p.Sex, p.Age, p.SibSp, p.Parch, p.Fare]]
     y_pred = model.predict(X)[0]
     return {"survived": int(y_pred)}
+

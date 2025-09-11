@@ -32,3 +32,11 @@ Use the below body
     "SibSp": 2,
     "Parch": 2,
     "Fare": 25}
+
+model_mlflow.py -> For saving the model in mlflow format.
+
+docker_compose.yml -> TO run both training and serving code
+Dockerfile.train -> FOr training code
+Dockerfile.api -> For API code
+
+Run it using docker compose up command.
